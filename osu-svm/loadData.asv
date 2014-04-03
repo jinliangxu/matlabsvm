@@ -1,0 +1,11 @@
+%
+%
+%
+%
+%
+% load data set
+clear all
+clc
+load('E:\proj\matlabsvm\data\iris_class1_2_3_4D.mat')
+% X 4*150
+% t 150*1
