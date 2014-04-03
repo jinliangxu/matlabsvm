@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Program: N fold one against all svm in matlab
+% Introduction: 
+% 		Load test data set and perform 5 fold one against all SVM
+% 		Output all accuracy result
+% Author: Liang
+% Date: 2014/4/3
+% 
+% Copyright (C) 2014 by Liang 
+% 				<jinliangxu@hotmail.com>
+% This is free software, you can redistribute it and/or modify
+% it under the terms of GNU GPL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Instructions:
+% 1. Prepare data set and OSU-SVM lib
+% 2. Copy all program scripts to OSU-SVM lib folder
+% 3. Update loadDataAndTest.m and set correct path to your training data set
+%    e.g.load('E:\proj\matlabsvm\data\iris_class.mat')
+% 4. Simply type loadDataAndTest command to run testing
+%	 >loadDataAndTest
+% 5. Collect results
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% List of files:
+% - loadDataAndTest.m
+% - - callOneVsAll.m
+% - - - callOneVsAllSVM.m
+% - - - - callSVMTrain.m
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Reference:
+% - Practical guide to SVM: http://tdlc.ucsd.edu/events/boot_camp_2009/tingfansvm.pdf
+% - SVM Tutorial: http://www.csie.cyut.edu.tw/~shwu/PR_slide/SVM.pdf
+% - Example of SVM in stackoverflow: http://stackoverflow.com/questions/16570579/full-example-of-multiple-class-svm-with-cross-validation-using-matlab
+% - OSU-SVM link: http://svm.sourceforge.net/download.shtml
+% - Libsvm link: http://www.csie.ntu.edu.tw/~cjlin/libsvm/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
