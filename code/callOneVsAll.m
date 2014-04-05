@@ -1,6 +1,6 @@
 function [TrainAcc, TestAcc] = callOneVsAll(DataSet, LabelSet, FoldNum)
 % Function to split data set and calculate classification accuracy of one against all SVM.
-% Usages:
+% Usage:
 % 		 [TrainAcc, TestAcc] = callOneVsAll(DataSet, LabelSet, FoldNum)
 %
 % Description:

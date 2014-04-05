@@ -1,6 +1,6 @@
 function [AlphaY,SVs,Bias,Parameters,nSV,nLabel] = callSVMTrain(TrainData, TrainLabel, C, KernelType)
 % Function  to call SVMTrain
-% Usages:
+% Usage:
 % 		 [AlphaY,SVs,Bias,Parameters,nSV,nLabel] = callSVMTrain(TrainData, TrainLabel, C, KernelType)
 %
 % Description:

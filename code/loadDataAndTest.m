@@ -1,6 +1,6 @@
 function [] = loadDataAndTest()
 % Function to load data set and perform 5 fold one against all SVM
-% Usages:
+% Usage:
 % 		 [] = loadDataAndTest()
 %
 % Description:

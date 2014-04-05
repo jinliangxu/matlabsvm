@@ -1,6 +1,6 @@
 function [TrainAccuracy, TestAccuracy] = callOneVsAllSVM(TrainData, TestData, TrainLabel, TestLabel, NumLabels, C, KernelType)
 % Function to do one against all SVM.
-% Usages:
+% Usage:
 % 		 [TrainAccuracy, TestAccuracy] = callOneVsAllSVM(TrainData, TestData, TrainLabel, TestLabel, NumLabels, C, KernelType)
 %
 % Description:
